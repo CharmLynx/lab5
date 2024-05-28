@@ -1,8 +1,8 @@
 def check(n):
-    if n%2==0:
-        print("loh")
+    if n % 2 == 0:
+        return "loh"
     else:
-        print("neloh")
+        return "neloh"
 
 import random
 number = random.randrange(0, 100, 2)
